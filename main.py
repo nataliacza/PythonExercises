@@ -4,7 +4,7 @@ from task_003 import is_valid_array
 
 if __name__ == '__main__':
 
-    # TAKS 001
+    # TASK 001
     is_nested_3([])
     is_nested_3([[2, 3], [5, 5]])
     is_nested_3([[1, 2], 4])
@@ -16,12 +16,12 @@ if __name__ == '__main__':
     is_nested_4([[1, 2], (0,)])  # False
     is_nested_4([[1, 2], (0,), [5, 5], [5, 5, 5]])  # False
 
-    # TAKS 002
+    # TASK 002
     is_all_equal([4, 5, 6])
     is_all_equal([4, 4, 4])
     is_all_equal([4, 4, "4"])
 
-    # TAKS 003
+    # TASK 003
     is_valid_array([[3], [4]])
     is_valid_array([[3, 4], [4, 5]])
     is_valid_array([[3, 4, 5], [4, 5]])
