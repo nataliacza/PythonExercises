@@ -1,6 +1,8 @@
-from task_001 import is_nested, is_nested_2, is_nested_3, is_nested_4
-from task_002 import is_all_equal, is_all_equal_2
-from task_003 import is_valid_array
+from challenges.task_001 import is_nested_3, is_nested_4
+from challenges.task_002 import is_all_equal
+from challenges.task_003 import is_valid_array
+from challenges.task_004 import swap_elements
+
 
 if __name__ == '__main__':
 
@@ -25,3 +27,9 @@ if __name__ == '__main__':
     is_valid_array([[3], [4]])
     is_valid_array([[3, 4], [4, 5]])
     is_valid_array([[3, 4, 5], [4, 5]])
+
+    # TASK 004
+    swap_elements([4, 5, 6, 7])  # [7, 5, 6, 4]
+    swap_elements([4, 5, 6, 7, 1])  # [1, 5, 6, 7, 4]
+    swap_elements([4, 5])  # [5, 4]
+    swap_elements([])  # []
