@@ -13,7 +13,7 @@ listX = [4, 2, 4]
 listY = [2, 8]
 # [4, 4], [8]
 
-class TestOfRemoveCommonFunctionOne(unittest.TestCase):
+class TestOfSwapFunctionOne(unittest.TestCase):
 
     def test_function_1(self):
         result = remove_common_elements(list1, list2)

@@ -5,7 +5,7 @@ text1 = "python is the best"  # "best the is python"
 text2 = "you should learn python"  # "python learn should you"
 
 
-class TestOfSwapFunctionOne(unittest.TestCase):
+class TestOfReverseWordsFunctionOne(unittest.TestCase):
 
     def test_function_1(self):
         result = reverse_words(text1)
@@ -18,7 +18,7 @@ class TestOfSwapFunctionOne(unittest.TestCase):
         self.assertEqual(result, expected)
 
 
-class TestOfSwapFunctionTwo(unittest.TestCase):
+class TestOfReverseWordsFunctionTwo(unittest.TestCase):
 
     def test_function_1(self):
         result = reverse_words_2(text1)
