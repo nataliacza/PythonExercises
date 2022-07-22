@@ -1,2 +1,2 @@
-# PythonExcercises
-Random python challenges with writing functions
+# Python Exercises
+Random python challenges for functional programming.
