@@ -3,17 +3,57 @@ Random python challenges for functional programming.
 Simple unit tests created as well.
 
 Challenges description:
-- 001 - Check if list has nested list and all are list type.
-- 002 - Check if list elements are all the same.
-- 003 - Check if you can build matrix. Given array must contain lists and each nested list must have the same amount
-of elements.
-- 004 - Create function that takes list as argument. Function should swap first and last element of the list.
-- 005 - Create function that takes for arguments: list, index, index. Swap two index and return list.
-- 006 - Write a function that takes text as argument and reverse words order.
-- 007 - Write a function that takes 2 lists as arguments, removes its common elements and returns both lists.
-- 008 - Create function that takes for argument: list and searchable value. Function returns list of elements indexes found.
-- 009 - Create function that takes list as argument and returns list of indexes with str value.
-- 010 - Create function that takes as argument list of dictionaries [{a:b, c:d}, {a:b, c:d}...] and returns dictionary with
- grouped by key elements.
+
+<details>
+<summary markdown="span">001 - Nested list.</summary>
+<i>Check if list has nested list and all are list type.</i>
+</details>
+
+<details>
+<summary markdown="span">002 - Elements are the same?</summary>
+<i>Check if list elements are all the same.</i>
+</details>
+
+<details>
+<summary markdown="span">003 - Building matrix.</summary>
+<i>Check if you can build matrix. Given array must contain lists and each nested list must have the same amount
+of elements.</i>
+</details>
+
+<details>
+<summary markdown="span">004 - Swap first and last.</summary>
+<i>Create function that takes list as argument. Function should swap first and last element of the list.</i>
+</details>
+
+<details>
+<summary markdown="span">005 - Swap by index.</summary>
+<i>Create function that takes for arguments: list, index, index. Swap two index and return list.</i>
+</details>
+
+<details>
+<summary markdown="span">006 - Reversed text.</summary>
+<i>Write a function that takes text as argument and reverse words order.</i>
+</details>
+
+<details>
+<summary markdown="span">007 - Remove common elements.</summary>
+<i>Write a function that takes 2 lists as arguments, removes its common elements and returns both lists.</i>
+</details>
+
+<details>
+<summary markdown="span">008 - Find all indexes.</summary>
+<i>Create function that takes for argument: list and value. Function returns list of elements indexes found.</i>
+</details>
+
+<details>
+<summary markdown="span">009 - Find all strings.</summary>
+<i>Create function that takes list as argument and returns list of indexes with str value.</i>
+</details>
+
+<details>
+<summary markdown="span">010 - Rebuild dictionary.</summary>
+<i>Create function that takes as argument list of dictionaries [{a:b, c:d}, {a:e, c:f}...] and returns dictionary with
+ grouped by key elements {a:[b, e], c:[d, f]}.</i>
+</details>
 
 TBC

@@ -1,5 +1,5 @@
-""" Create function that takes as argument list of dictionaries [{a:b, c:d}, {a:b, c:d}...] and returns dictionary with
- grouped by key elements. """
+""" Create function that takes as argument list of dictionaries [{a:b, c:d}, {a:e, c:f}...] and returns dictionary with
+ grouped by key elements {a:[b, e], c:[d, f]}. """
 
 def convert(array: list) -> dict:
     result = {}
