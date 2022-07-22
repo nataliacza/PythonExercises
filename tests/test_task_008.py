@@ -1,31 +1,22 @@
 import unittest
-from challenges.task_007 import remove_common_elements
+from challenges.task_008 import get_indicates
 
 list1 = [4, 3, 5, 2]
-list2 = [3, 8]
-# [4, 5, 2], [8]
+searched1 = 2
+# [3]
 
-listA = [4, 3, 5, 2]
-listB = [1, 8]
-# [4, 3, 5, 2], [1, 8]
+list2 = ["Q", "DQ", "DQ", "DQ", "Q", "Q"]
+searched2 = "Q"
+# [0, 4, 5]
 
-listX = [4, 2, 4]
-listY = [2, 8]
-# [4, 4], [8]
-
-class TestOfSwapFunctionOne(unittest.TestCase):
+class TestOfSearchFunctionOne(unittest.TestCase):
 
     def test_function_1(self):
-        result = remove_common_elements(list1, list2)
-        expected = ([4, 5, 2], [8])
+        result = get_indicates(list1, searched1)
+        expected = [3]
         self.assertEqual(result, expected)
 
     def test_function_2(self):
-        result = remove_common_elements(listA, listB)
-        expected = ([4, 3, 5, 2], [1, 8])
-        self.assertEqual(result, expected)
-
-    def test_function_3(self):
-        result = remove_common_elements(listX, listY)
-        expected = ([4, 4], [8])
+        result = get_indicates(list2, searched2)
+        expected = [0, 4, 5]
         self.assertEqual(result, expected)
