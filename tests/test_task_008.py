@@ -1,5 +1,5 @@
 import unittest
-from challenges.task_008 import get_indicates
+from challenges.task_008 import get_indicates, get_indicates_2, get_indicates_3
 
 list1 = [4, 3, 5, 2]
 searched1 = 2
@@ -18,5 +18,31 @@ class TestOfSearchFunctionOne(unittest.TestCase):
 
     def test_function_2(self):
         result = get_indicates(list2, searched2)
+        expected = [0, 4, 5]
+        self.assertEqual(result, expected)
+
+
+class TestOfSearchFunctionTwo(unittest.TestCase):
+
+    def test_function_1(self):
+        result = get_indicates_2(list1, searched1)
+        expected = [3]
+        self.assertEqual(result, expected)
+
+    def test_function_2(self):
+        result = get_indicates_2(list2, searched2)
+        expected = [0, 4, 5]
+        self.assertEqual(result, expected)
+
+
+class TestOfSearchFunctionThree(unittest.TestCase):
+
+    def test_function_1(self):
+        result = get_indicates_3(list1, searched1)
+        expected = [3]
+        self.assertEqual(result, expected)
+
+    def test_function_2(self):
+        result = get_indicates_3(list2, searched2)
         expected = [0, 4, 5]
         self.assertEqual(result, expected)
