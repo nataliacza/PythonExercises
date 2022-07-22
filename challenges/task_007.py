@@ -1,4 +1,4 @@
-""" Write a function that takes 2 lists as arguments, removes its commont elements and returnes both lists. """
+""" Write a function that takes 2 lists as arguments, removes its common elements and returns both lists. """
 
 def remove_common_elements(array1: list, array2: list) -> tuple:
     for elem in array1[:]:
