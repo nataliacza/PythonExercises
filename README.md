@@ -12,5 +12,6 @@ of elements.
 - 006 - Write a function that takes text as argument and reverse words order.
 - 007 - Write a function that takes 2 lists as arguments, removes its common elements and returns both lists.
 - 008 - Create function that takes for argument: list and searchable value. Function returns list of elements indexes found.
+- 009 - Create function that takes list as argument and returns list of indexes with str value.
 
 TBC
