@@ -1,28 +1,22 @@
 import unittest
-from challenges.task_009 import get_indices
+from challenges.task_010 import convert
 
-list1 = ["www.google.com", "http", 200, 1.25, False, "text"]
-# [0, 1, 5]
+list1 = [
+    {"user": "joe", "technology": "python"},
+    {"user": "tom", "technology": "c"},
+    {"user": "michael", "technology": "cloud"},
+    {"user": "bob", "technology": "php"},
+    {"user": "lil", "technology": "html"},
+    {"user": "alice", "technology": "sql"}
+]
+expected1 = {
+    "user": ["joe", "tom", "michael", "bob", "lil", "alice"],
+    "technology": ["python", "c", "cloud", "php", "html", "sql"]
+}
 
-list2 = []
-# []
-
-list3 = [1, 2, 3, 4]
-# []
-
-class TestOfIndexFunctionOne(unittest.TestCase):
+class TestOfDictConvertFunctionOne(unittest.TestCase):
 
     def test_function_1(self):
-        result = get_indices(list1)
-        expected = [0, 1, 5]
-        self.assertEqual(result, expected)
-
-    def test_function_2(self):
-        result = get_indices(list2)
-        expected = []
-        self.assertEqual(result, expected)
-
-    def test_function_3(self):
-        result = get_indices(list3)
-        expected = []
+        result = convert(list1)
+        expected = expected1
         self.assertEqual(result, expected)
