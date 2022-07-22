@@ -13,5 +13,7 @@ of elements.
 - 007 - Write a function that takes 2 lists as arguments, removes its common elements and returns both lists.
 - 008 - Create function that takes for argument: list and searchable value. Function returns list of elements indexes found.
 - 009 - Create function that takes list as argument and returns list of indexes with str value.
+- 010 - Create function that takes as argument list of dictionaries [{a:b, c:d}, {a:b, c:d}...] and returns dictionary with
+ grouped by key elements.
 
 TBC
