@@ -56,4 +56,10 @@ of elements.</i>
  grouped by key elements {a:[b, e], c:[d, f]}.</i>
 </details>
 
+<details>
+<summary markdown="span">011 - Joining nested lists.</summary>
+<i>Create function that takes for argument two nested lists and returns one list where each nested list remains on
+the same index in result, ex. [[1, 1], [2, 2]] + [[3, 3], [4, 4]] = [[1, 1, 3, 3], [2, 2, 4 , 4]].</i>
+</details>
+
 TBC
