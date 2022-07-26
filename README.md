@@ -62,4 +62,11 @@ of elements.</i>
 the same index in result, ex. [[1, 1], [2, 2]] + [[3, 3], [4, 4]] = [[1, 1, 3, 3], [2, 2, 4 , 4]].</i>
 </details>
 
+<details>
+<summary markdown="span">012 - Joining nested lists with length validation.</summary>
+<i>Create function that takes for argument two nested list and returns new list, which joins elements in nested list
+on the same index, ex. [[1], [3]] + [[2], [4]] = [[1, 2], [3, 4]]. Check if there are the same amount of nested list,
+if not raise ValueError.</i>
+</details>
+
 TBC
