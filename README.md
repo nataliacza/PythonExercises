@@ -91,4 +91,10 @@ Each nested list has at least 3 elements.</i>
 ex. [122, 34, 51] -> [34, 51].</i>
 </details>
 
+<details>
+<summary markdown="span">017 - Surrounding elements.</summary>
+<i>Define a function that takes for arguments list and integer k. Function should return all elements from the list,
+ that are k away from value. Skip first and last element of the list in result.</i>
+</details>
+
 TBC
