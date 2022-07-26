@@ -85,4 +85,10 @@ Each nested list has at least 3 elements.</i>
 <i>Write a function that takes nested list with dictionaries and leaves only dicts with key="level".</i>
 </details>
 
+<details>
+<summary markdown="span">016 - Remove recurring numbers.</summary>
+<i>Write a function that takes list with numbers and removes all numbers that has repeated numbers in it,
+ex. [122, 34, 51] -> [34, 51].</i>
+</details>
+
 TBC
