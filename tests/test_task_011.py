@@ -1,5 +1,5 @@
 import unittest
-from challenges.task_011 import concat
+from challenges.task_011 import concat, concat_2, concat_3
 
 list1 = [[6, 2], [6, 3, 7], [3, 5]]
 other1 = [[3], [4, 2], [0, 5, 1, 5]]
@@ -18,5 +18,31 @@ class TestOfConcatFunctionOne(unittest.TestCase):
 
     def test_function_2(self):
         result = concat(list2, other2)
+        expected = expected2
+        self.assertEqual(result, expected)
+
+
+class TestOfConcatFunctionTwo(unittest.TestCase):
+
+    def test_function_1(self):
+        result = concat_2(list1, other1)
+        expected = expected1
+        self.assertEqual(result, expected)
+
+    def test_function_2(self):
+        result = concat_2(list2, other2)
+        expected = expected2
+        self.assertEqual(result, expected)
+
+
+class TestOfConcatFunctionThree(unittest.TestCase):
+
+    def test_function_1(self):
+        result = concat_3(list1, other1)
+        expected = expected1
+        self.assertEqual(result, expected)
+
+    def test_function_2(self):
+        result = concat_3(list2, other2)
         expected = expected2
         self.assertEqual(result, expected)
