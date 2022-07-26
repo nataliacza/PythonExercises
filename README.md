@@ -80,4 +80,9 @@ if not raise ValueError.</i>
 Each nested list has at least 3 elements.</i>
 </details>
 
+<details>
+<summary markdown="span">015 - Filter users.</summary>
+<i>Write a function that takes nested list with dictionaries and leaves only dicts with key="level".</i>
+</details>
+
 TBC
