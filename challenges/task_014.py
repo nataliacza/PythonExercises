@@ -2,4 +2,13 @@
 Each nested list has at least 3 elements. """
 
 def top3(array: list) -> list:
-    pass
+    result = list()
+    for item in array:
+        result.append(sorted(item, reverse=True)[:3])
+    return result
+
+def top3_2(array: list) -> list:
+    for index, value in enumerate(array):
+        value.sort(reverse=True)
+        array[index] = value[:3]
+    return array
