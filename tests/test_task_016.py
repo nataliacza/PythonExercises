@@ -1,5 +1,5 @@
 import unittest
-from challenges.task_016 import remove_repetitive
+from challenges.task_016 import remove_repetitive, remove_repetitive_2
 
 list1 = [4543, 111, 357, 5675, 2567, 8632]
 expected1 = [357, 2567, 8632]
@@ -17,5 +17,18 @@ class TestOfRemoveRepetitiveFunctionOne(unittest.TestCase):
 
     def test_function_2(self):
         result = remove_repetitive(list2)
+        expected = expected2
+        self.assertEqual(result, expected)
+
+
+class TestOfRemoveRepetitiveFunctionTwo(unittest.TestCase):
+
+    def test_function_1(self):
+        result = remove_repetitive_2(list1)
+        expected = expected1
+        self.assertEqual(result, expected)
+
+    def test_function_2(self):
+        result = remove_repetitive_2(list2)
         expected = expected2
         self.assertEqual(result, expected)
