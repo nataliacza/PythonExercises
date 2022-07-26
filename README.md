@@ -74,4 +74,10 @@ if not raise ValueError.</i>
 <i>Define a function that takes for argument nested list and sort elements ascending by each nested list.</i>
 </details>
 
+<details>
+<summary markdown="span">014 - Top 3.</summary>
+<i>Define a function that takes for argument nested list and returns top 3 elements from each list sorted descending.
+Each nested list has at least 3 elements.</i>
+</details>
+
 TBC
