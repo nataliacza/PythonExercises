@@ -69,4 +69,9 @@ on the same index, ex. [[1], [3]] + [[2], [4]] = [[1, 2], [3, 4]]. Check if ther
 if not raise ValueError.</i>
 </details>
 
+<details>
+<summary markdown="span">013 - Sort nested list.</summary>
+<i>Define a function that takes for argument nested list and sort elements ascending by each nested list.</i>
+</details>
+
 TBC
