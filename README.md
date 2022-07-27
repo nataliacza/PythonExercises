@@ -97,4 +97,10 @@ ex. [122, 34, 51] -> [34, 51].</i>
  that are k away from value. Skip first and last element of the list in result.</i>
 </details>
 
+<details>
+<summary markdown="span">018 - Permutation.</summary>
+<i>Define a function that takes for arguments string sequence and returns list with all possible permutations 
+of the sequence.</i>
+</details>
+
 TBC
