@@ -10,7 +10,7 @@ expected1 = [
     "the is python",
     "the python is"
 ]
-# == 6
+# 3! == 6
 
 sequence2 = "python is the best"
 expected2 = [
@@ -39,16 +39,16 @@ expected2 = [
     "best python is the",
     "best python the is"
 ]
-# == 24
+# 4! == 24
 
 class TestOfPermutationFunctionOne(unittest.TestCase):
 
     def test_function_1(self):
         result = calculate(sequence1)
         expected = expected1
-        self.assertEqual(result, expected)
+        self.assertEqual(result.sort(), expected.sort())
 
     def test_function_2(self):
         result = calculate(sequence2)
         expected = expected2
-        self.assertEqual(result, expected)
+        self.assertEqual(result.sort(), expected.sort())
